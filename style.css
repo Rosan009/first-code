@@ -1,6 +1,6 @@
 body{
    font-family: Verdana, Geneva, Tahoma, sans-serif;
-     background:-o-linear-gradient(red,yellow);
+     background: linear-gradient(to right,red,orange,yellow);
  }
 
  table,tr,td,th,caption {
@@ -16,6 +16,11 @@ body{
     font: bold 20px ;
     font-weight: bold;
  }
- h1{
+ .hello{
     font-variant: small-caps;
+    text-align: center;
+    font-size: 50px;
+    background-image: url(download.jpg);
+    color: transparent;
+    background-clip: text;
  }
